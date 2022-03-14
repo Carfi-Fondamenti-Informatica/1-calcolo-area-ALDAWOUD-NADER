@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-int a,b,c;
+ int a=0,b=0,c=0;
     float areaR,areaT1,areaS,areaT2;
     cout << "Inserire il valore di a"<<endl;
     cout << "Inserire il valore di b"<<endl;
@@ -19,6 +19,6 @@ int a,b,c;
     cout << "area di triangolo"<< areaT1 <<endl;
     cout << "area di quadrato"<< areaS <<endl;
     cout << "are di trapezio "<< areaT2<<endl ;
-
-
+    
+    
 }
