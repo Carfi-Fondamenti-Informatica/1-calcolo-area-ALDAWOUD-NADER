@@ -6,10 +6,10 @@ int main() {
 
     cin >> a >> b >> c ;
 
-    Triangolo = (float) 0.5*(a*b);
+    Triangolo = (float) 0.5 * (a * b);
     Quadrato = a*a;
     Rettangolo = a*b;
-    Trapezio= (float)0.5*(a*b)*c;
+    Trapezio= (float) 0.5* (a+b) * c;
 
     cout << Triangolo << endl;
     cout << Quadrato << endl;
